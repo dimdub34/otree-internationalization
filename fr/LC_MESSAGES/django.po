@@ -5,18 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-27 20:55-0600\n"
-"PO-Revision-Date: 2015-06-10 09:22+0100\n"
-"Last-Translator: Rousselle Jean-Marc <roussell@supagro.inra.fr>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2020-03-15 11:28+0100\n"
+"Last-Translator: Dimitri DUBOIS <dimitri.dubois@umontpellier.fr>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 2.0.6\n"
+"Language-Team: \n"
 
 #. Translators: A player's default chat nickname,
 #. which is "Player" + their ID in group. For example:
@@ -24,7 +24,7 @@ msgstr ""
 #: .\chat.py:21
 #, python-brace-format
 msgid "Player {id_in_group}"
-msgstr ""
+msgstr "Joueur {id_in_group}"
 
 #. Translators: the name someone sees displayed for themselves in a chat.
 #. It's their nickname followed by "(Me)". For example:
@@ -32,12 +32,12 @@ msgstr ""
 #: .\chat.py:60
 #, python-brace-format
 msgid "{nickname} (Me)"
-msgstr ""
+msgstr "{nickname} (Moi)"
 
 #. Translators: for required form fields
 #: .\constants_internal.py:56
 msgid "This field is required."
-msgstr "Ce champ est nécessaire"
+msgstr "Ce champ est nécessaire."
 
 #. Translators: display a number of points,
 #. like "1 point", "2 points", ...
@@ -86,21 +86,20 @@ msgstr "S'il vous plaît, veuillez corriger les erreurs dans le formulaire."
 
 #: .\templates\otree\RoomInputLabel.html:7
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenue"
 
 #. Translators: If the user enters an invalid participant label
 #: .\templates\otree\RoomInputLabel.html:13
 msgid "Invalid entry; try again."
-msgstr ""
+msgstr "Saisie invalide; merci de réessayer."
 
 #: .\templates\otree\RoomInputLabel.html:15
 msgid "Please enter your participant label."
-msgstr ""
+msgstr "Merci de saisir votre identifiant."
 
 #: .\templates\otree\WaitPage.html:49
-msgid ""
-"An error occurred. Please check the logs or ask the administrator for help."
-msgstr ""
+msgid "An error occurred. Please check the logs or ask the administrator for help."
+msgstr "Une erreur est survenue. Merci de regarder les logs ou de demander de l'aide auprès de l'administrateur."
 
 #: .\templates\otree\login.html:47
 msgid "Forgotten your password or username?"
@@ -118,11 +117,11 @@ msgstr "Suivant"
 #. Translators: Chat widget "send" button text
 #: .\templates\otreechat_core\widget.html:7
 msgid "Send"
-msgstr ""
+msgstr "Envoyer"
 
 #: .\views\abstract.py:886
 msgid "Time left to complete this page:"
-msgstr "Temps restant pour compléter cette page"
+msgstr "Temps restant pour compléter cette page:"
 
 #. Translators: the default title of a wait page
 #: .\views\abstract.py:961 .\views\participant.py:291
@@ -139,4 +138,4 @@ msgstr "En attente de l'autre participant."
 
 #: .\views\participant.py:292
 msgid "Waiting for your session to begin"
-msgstr ""
+msgstr "En attente du début de la session"
